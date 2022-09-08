@@ -1,0 +1,27 @@
+{
+  "name": "eth-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "deployOnRinkeby": "truffle migrate --network rinkeby --reset --compile-all",
+    "ganache": "ganache-cli -m 'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat'"
+  },
+  "keywords": [
+    "udacity",
+    "blockchain",
+    "capstone"
+  ],
+  "author": "Ayushmaan Lavania",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "dependencies": {
+    "truffle-flattener": "^1.6.0"
+  }
+}
